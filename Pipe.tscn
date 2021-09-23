@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/testtube.png" type="Texture" id=1]
+[ext_resource path="res://Pipe.gd" type="Script" id=2]
+
+[node name="Pipe" type="Area2D" groups=[
+"pipes",
+]]
+z_index = 2
+script = ExtResource( 2 )
+
+[node name="Top" type="CollisionPolygon2D" parent="."]
+position = Vector2( 2.828, 650 )
+polygon = PoolVector2Array( -46.2451, -791.265, 39.7549, -779.265, 93.7549, -807.265, 163.755, -839.265, 165.755, -889.265, 117.755, -921.265, 113.755, -1215.26, 147.755, -1623.26, -136.245, -1629.26, -136.245, -1429.26, -136.245, -1215.26, -126.245, -949.265, -116.245, -907.265, -166.245, -879.265, -172.245, -831.265, -140.245, -815.265, -76.2451, -795.265 )
+
+[node name="Sprite" type="Sprite" parent="Top"]
+position = Vector2( -2.82837, -1205.28 )
+texture = ExtResource( 1 )
+flip_v = true
+
+[node name="Bottom" type="CollisionPolygon2D" parent="."]
+position = Vector2( 2.279, -650 )
+scale = Vector2( 1, -1 )
+polygon = PoolVector2Array( -46.2451, -791.265, 39.7549, -779.265, 93.7549, -807.265, 163.755, -839.265, 165.755, -889.265, 117.755, -921.265, 113.755, -1215.26, 147.755, -1623.26, -136.245, -1629.26, -136.245, -1429.26, -136.245, -1215.26, -126.245, -949.265, -116.245, -907.265, -166.245, -879.265, -172.245, -831.265, -140.245, -815.265, -76.2451, -795.265 )
+
+[node name="Sprite" type="Sprite" parent="Bottom"]
+position = Vector2( -2.27917, -1207.87 )
+scale = Vector2( 1, -1 )
+texture = ExtResource( 1 )
