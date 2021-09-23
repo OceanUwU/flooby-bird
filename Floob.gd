@@ -36,7 +36,7 @@ func start():
     flapped_yet = false
 
 func _input(event):
-    if alive && self.position.y > 0 && ((event is InputEventMouseButton && event.button_index == 1 && event.is_pressed()) || event is InputEventScreenTouch):
+    if alive && self.position.y > 0 && ((event is InputEventMouseButton && event.button_index == 1 && event.is_pressed()) || (event is InputEventScreenTouch && event.pressed)):
         velocity = -FLAP_POWER
         if (!flapped_yet):
             flapped_yet = true

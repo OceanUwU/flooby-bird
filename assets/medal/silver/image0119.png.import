@@ -2,22 +2,20 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.s3tc.stex"
-path.etc2="res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.etc2.stex"
+path="res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/medal/silver/image0119.png"
-dest_files=[ "res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.s3tc.stex", "res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.etc2.stex" ]
+dest_files=[ "res://.import/image0119.png-33d6f49ee4fa5240db848c93e8e3309b.stex" ]
 
 [params]
 
-compress/mode=2
-compress/lossy_quality=0.7
+compress/mode=1
+compress/lossy_quality=0.61
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

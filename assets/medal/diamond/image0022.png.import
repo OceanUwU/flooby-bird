@@ -2,22 +2,20 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.s3tc.stex"
-path.etc2="res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.etc2.stex"
+path="res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/medal/diamond/image0022.png"
-dest_files=[ "res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.s3tc.stex", "res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.etc2.stex" ]
+dest_files=[ "res://.import/image0022.png-3154e4b071307b6c760ff6454efdcb36.stex" ]
 
 [params]
 
-compress/mode=2
-compress/lossy_quality=0.7
+compress/mode=1
+compress/lossy_quality=0.61
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
